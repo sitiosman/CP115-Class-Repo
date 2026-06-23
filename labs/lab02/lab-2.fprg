@@ -4,9 +4,9 @@
         <attribute name="name" value="lab-2"/>
         <attribute name="authors" value="User"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2026-06-23 02:56:23 PM"/>
+        <attribute name="saved" value="2026-06-23 03:05:01 PM"/>
         <attribute name="created" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMjoyNToyNiBQTTsyNzUz"/>
-        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMjo1NjoyMyBQTTs1OzI4NjY="/>
+        <attribute name="edited" value="VXNlcjtERVNLVE9QLUozOVAxTlQ7MjAyNi0wNi0yMzswMzowNTowMSBQTTs3OzI4NTk="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -14,7 +14,7 @@
             <declare name="mealPrice" type="Integer" array="False" size=""/>
             <declare name="mealPrice" type="Integer" array="False" size=""/>
             <input variable="mealPrice"/>
-            <assign variable="finalPrice" expression="(mealPrice*0.1)+(mealPrice*0.05)"/>
+            <assign variable="finalPrice" expression="(mealPrice * 0.10)+(mealPrice * 0.05)"/>
             <output expression="finalPrice" newline="True"/>
         </body>
     </function>
