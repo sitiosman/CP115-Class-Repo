@@ -11,11 +11,11 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="mealPrice" type="Integer" array="False" size=""/>
-            <declare name="mealPrice" type="Integer" array="False" size=""/>
-            <input variable="mealPrice"/>
-            <assign variable="finalPrice" expression="(mealPrice * 0.10)+(mealPrice * 0.05)"/>
-            <output expression="finalPrice" newline="True"/>
+            <declare name="MealPrice" type="Integer" array="False" size=""/>
+            <declare name="FinalPrice" type="Integer" array="False" size=""/>
+            <input variable="MealPrice"/>
+            <assign variable="FinalPrice" expression="(MealPrice * 0.10)+(MealPrice * 0.05)"/>
+            <output expression="FinalPrice" newline="True"/>
         </body>
     </function>
 </flowgorithm>
