@@ -8,7 +8,7 @@ for  number in range(num_rounds):
     rounds_processed += 1
 
     if score > 100:
-        final_score += score + (score * 0.2)
+        final_score += (score + (score * 0.2))
     else:
         final_score += score
 
