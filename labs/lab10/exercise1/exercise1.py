@@ -1,10 +1,10 @@
 num_rounds = int(input())
 
-final_score = 0.0
+final_score = 0
 rounds_processed = 0
 
 for  number in range(num_rounds):
-    score = float(input())
+    score = int(input())
     rounds_processed += 1
 
     if score > 100:
